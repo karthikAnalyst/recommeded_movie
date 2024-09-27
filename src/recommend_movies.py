@@ -26,3 +26,4 @@ def recommend_movies(user_data, movies_data):
         recommendations.extend(user_movies)
     
     return list(set(recommendations))
+print(head)
