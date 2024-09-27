@@ -76,7 +76,3 @@ def recommend_movies(user_data, movie_data):
     final_recommendations = list(set(content_recommendations + collaborative_recommendations))
 
     return final_recommendations
-
-
-
-
